@@ -267,6 +267,160 @@ p {
     }
 /* 6. Meus Pontos */
 
+/* 6. MEUS PONTOS */
+
+    /* TÍTULO DA PÁGINA */
+
+        .meus-pontos {
+            padding: 15px;
+        }
+
+        .meus-pontos h1 {
+            font-size: 20px;
+        }
+
+    /* CARD DE SALDO */
+
+        .saldo {
+            padding: 10px;
+        }
+
+        .card-saldo {
+            background-color: #DDF2D0;
+            border: 1px solid #B8DDA5;
+            border-radius: 10px;
+            padding: 15px;
+            min-height: 125px;
+        }
+
+        .card-saldo h2 {
+            font-size: 14px;
+            color: #07552F;
+            margin-bottom: 5px;
+        }
+
+        .card-saldo .valor-saldo {
+            color: #00B84A;
+            font-size: 34px;
+            font-weight: bold;
+            margin: 5px 0;
+            display: flex;
+            align-items: baseline;
+            gap: 8px;
+        }
+
+        .card-saldo .valor-saldo span {
+            font-size: 20px;
+        }
+
+        .card-saldo p:last-child {
+            font-size: 10px;
+            margin: 0;
+            max-width: 160px;
+        }
+
+    /* RESUMO DE PONTOS */
+
+        .resumo-pontos {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 12px;
+            padding: 10px;
+            margin-top: 35px;
+        }
+
+        .card-pontos {
+            background-color: #F5EEDC;
+            border-radius: 10px;
+            padding: 12px 8px;
+            min-height: 90px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .card-pontos h2 {
+            font-size: 11px;
+            font-weight: normal;
+            margin-bottom: 8px;
+        }
+
+        .card-pontos p {
+            color: #009D45;
+            font-size: 18px;
+            margin: 0;
+        }
+
+    /* ATIVIDADES RECENTES */
+
+        .atividades {
+            margin: 30px 10px 15px;
+        }
+
+        .titulo-atividades {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 12px;
+        }
+
+        .titulo-atividades h2 {
+            font-size: 13px;
+            margin: 0;
+        }
+
+        .titulo-atividades a {
+            color: #249B50;
+            font-size: 10px;
+        }
+
+        .atividade {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            background-color: #FFFFFF;
+            padding: 12px 10px;
+            margin-bottom: 10px;
+            border: 1px solid #E6E6E6;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+        }
+
+        .icone-atividade {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-width: 38px;
+            height: 38px;
+            background-color: #EAF8D9;
+            border-radius: 8px;
+            font-size: 20px;
+        }
+
+        .descricao-atividade {
+            flex: 1;
+        }
+
+        .descricao-atividade h3 {
+            font-size: 12px;
+            margin: 0 0 5px;
+        }
+
+        .descricao-atividade p {
+            font-size: 10px;
+            color: #777777;
+            margin: 0;
+        }
+
+        .pontos-atividade {
+            color: #00B84A;
+            font-size: 11px;
+            font-weight: bold;
+            white-space: nowrap;
+        }
+
+
 /* 7. Meus pedidos */
 
 /* 8. Perfil */
