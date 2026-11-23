@@ -211,6 +211,60 @@ p {
         color: #249B50;
         margin: 0;
     }
+
+        /* ATIVIDADES RECENTES */
+
+    .atividades {
+        margin: 15px 10px;
+    }
+
+    .titulo-atividades {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 12px;
+    }
+
+    .titulo-atividades h2 {
+        margin: 0;
+    }
+
+    .titulo-atividades a {
+        color: #249B50;
+        font-size: 11px;
+    }
+
+    .atividade {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        background-color: #FFFFFF;
+        padding: 12px;
+        margin-bottom: 10px;
+        border: 1px solid #E6E6E6;
+        border-radius: 10px;
+    }
+
+    .icone-atividade {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-width: 38px;
+        height: 38px;
+        background-color: #EAF8D9;
+        border-radius: 8px;
+        font-size: 20px;
+    }
+
+    .descricao-atividade h3 {
+        font-size: 13px;
+        margin: 0 0 5px;
+    }
+
+    .descricao-atividade p {
+        font-size: 11px;
+        margin: 0;
+    }
 /* 6. Meus Pontos */
 
 /* 7. Meus pedidos */
