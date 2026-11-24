@@ -11,16 +11,10 @@
     <main>
         <%- include('../partials/headerCliente') %>
 
-        <section class="meus-pontos">
-            <h1>Meus pontos</h1>
-        </section>
-
         <section class="saldo">
-            <h2>Meu saldo</h2>
-
-            <article class="card-saldo">
+          <article class="card-saldo">  
                 <h2>Meu saldo</h2>
-                <p>1.230 pontos</p>
+                <p class="valor-saldo">1.230<span>pontos</span></p>
                 <p>Continue reciclando para ganhar mais!</p>
             </article>
         </section>
@@ -38,16 +32,24 @@
         </section>
 
         <section class="atividades">
-            <h2>Atividades recentes</h2>
-            <a href="/pedidos">Ver todas</a>
 
-            <article class="atividade">
+        </section>
+            <div class="titulo-atividades">
+                <h2>Atividades recentes</h2>
+                <a href="/pedidos">Ver todas ›</a>
+            </div>
+
+        <article class="atividade">
+            <span class="icone-atividade">♻️</span>
+
+            <div class="descricao-atividade">
                 <h3>Reciclagem</h3>
                 <p>28/09/26</p>
-                <p>+250 pts</p>
-            </article>
-        </section>
+            </div>
 
+            <span class="pontos-atividade">+250 pts</span>
+        </article>
+    </section>
         <%- include('../partials/navCliente') %>
     </main>
 
