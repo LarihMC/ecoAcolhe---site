@@ -421,7 +421,88 @@ p {
         }
 
 
-/* 7. Meus pedidos */
+
+    /* 7. MEUS PEDIDOS */
+
+        /* TÍTULO DA PÁGINA */
+
+        .meus-pedidos {
+            padding: 15px;
+        }
+
+        .meus-pedidos h1 {
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+
+        /* CARD DO PEDIDO */
+
+        .card-pedido {
+            display: grid;
+            grid-template-columns: 80px 1fr 20px;
+            grid-template-rows: auto 1fr;
+            align-items: center;
+            gap: 8px;
+            background-color: #FFFFFF;
+            border: 1px solid #DDDDDD;
+            border-radius: 10px;
+            padding: 12px;
+            margin-bottom: 20px;
+            min-height: 110px;
+        }
+
+        /* NÚMERO DO PEDIDO */
+
+        .card-pedido h2 {
+            grid-column: 1 / -1;
+            font-size: 13px;
+            margin: 0;
+        }
+
+        /* IMAGEM DO PRODUTO */
+
+        .card-pedido .imagem-pedido {
+            width: 80px;
+            height: 80px;
+            object-fit: cover;
+            border-radius: 8px;
+            background-color: #F5EEDC;
+        }
+
+        /* INFORMAÇÕES DO PEDIDO */
+
+        .detalhes-pedido {
+            align-self: center;
+        }
+
+        .detalhes-pedido h3 {
+            font-size: 11px;
+            font-weight: normal;
+            margin: 0 0 8px;
+        }
+
+        .detalhes-pedido p {
+            font-size: 10px;
+            margin: 5px 0;
+        }
+
+        .detalhes-pedido .data-pedido {
+            color: #555555;
+        }
+
+        .detalhes-pedido .valor-pedido {
+            color: #249B50;
+        }
+
+        /* LINK DE DETALHES */
+
+        .link-pedido {
+            color: #07552F;
+            font-size: 26px;
+            text-align: center;
+            align-self: center;
+        }
+
 
 /* 8. Perfil */
 
