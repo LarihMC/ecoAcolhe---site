@@ -504,6 +504,125 @@ p {
         }
 
 
-/* 8. Perfil */
+
+    /* 8. PERFIL DO CLIENTE */
+
+        /* ÁREA PRINCIPAL */
+
+        .perfil {
+            padding: 15px 10px 25px;
+        }
+
+        .perfil > h1 {
+            font-size: 20px;
+            margin-bottom: 15px;
+        }
+
+        /* FOTO E IDENTIFICAÇÃO */
+
+        .foto-perfil {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            margin: 10px 0 20px;
+        }
+
+        .imagem-perfil {
+            width: 110px;
+            height: 110px;
+            border: 1px solid #90CD76;
+            border-radius: 50%;
+            background-color: #F5EEDC;
+        }
+
+        .foto-perfil figcaption h2 {
+            color: #07552F;
+            font-size: 22px;
+            margin: 8px 0 4px;
+        }
+
+        .foto-perfil figcaption p {
+            font-size: 11px;
+            margin: 0;
+        }
+
+        /* DADOS PESSOAIS */
+
+        .dados-pessoais {
+            border: 1px solid #B8DDA5;
+            border-radius: 10px;
+            overflow: hidden;
+            margin-bottom: 20px;
+        }
+
+        .dados-pessoais h2 {
+            font-size: 13px;
+            color: #07552F;
+            padding: 12px;
+            margin: 0;
+        }
+
+        .lista-dados {
+            margin: 0;
+            padding: 0 12px;
+        }
+
+        .lista-dados dt {
+            font-size: 11px;
+            margin-top: 8px;
+        }
+
+        .lista-dados dd {
+            font-size: 10px;
+            color: #555555;
+            margin: 3px 0 0;
+            padding-bottom: 8px;
+            border-bottom: 1px solid #F0E8D8;
+        }
+
+        .editar-dados {
+            display: block;
+            width: 65%;
+            margin: 12px auto;
+            padding: 9px;
+            text-align: center;
+            background-color: #90CD76;
+            color: #FFFFFF;
+            border-radius: 8px;
+            font-size: 12px;
+        }
+
+        /* SEGURANÇA */
+
+        .seguranca {
+            border: 1px solid #B8DDA5;
+            border-radius: 10px;
+            padding: 12px;
+            margin-top: 10px;
+        }
+
+        .seguranca h2 {
+            font-size: 14px;
+            margin-bottom: 15px;
+        }
+
+        .seguranca p {
+            font-size: 12px;
+            margin-bottom: 15px;
+        }
+
+        .alterar-senha {
+            display: block;
+            width: 65%;
+            margin: 0 auto;
+            padding: 9px;
+            text-align: center;
+            background-color: #C5E6B7;
+            color: #07552F;
+            border-radius: 8px;
+            font-size: 12px;
+        }
+
 
 /* 9. Responsividade */

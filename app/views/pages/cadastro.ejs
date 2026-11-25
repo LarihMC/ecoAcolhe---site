@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro</title>
-    <link rel="stylesheet" href="cadastro.css">
+    <link rel="stylesheet" href="/css/estilo.css">
 </head>
 <body>
 
@@ -14,7 +14,6 @@
 
         <section class="titulo">
             <h1>Cadastre-se</h1>
-            <img src="/imagem/ecoacolhe logotipo bg transparente.png" alt="Logo Eco Acolhe">
         </section>
 
         <section class="formulario">
@@ -43,19 +42,20 @@
                 <label for="confirmarSenha">Confirmar senha</label>
                 <input type="password" id="confirmarSenha" name="confirmarSenha" required>
 
+            <div class="campo-checkbox">
                 <input type="checkbox" id="consentimento" name="consentimento" required>
                 <label for="consentimento">Aceito os termos de consentimento</label>
-
+            </div>
+            <div class="campo-checkbox">
                 <input type="checkbox" id="privacidade" name="privacidade" required>
                 <label for="privacidade">Aceito os termos de privacidade</label>
+            </div>
+            <a href="/termos">Leia os termos de consentimento e privacidade</a>
 
-                <a href="termos.html">Leia os termos de consentimento e privacidade</a>
-
-                <button type="submit">Entrar</button>
-
+                <a href="/cadastro" class="btn-principal">Cadastre-se</a>
+                <a href="/login" class="btn-secundario">Log In</a>
             </form>
         </section>
-               <a href="login.html">Já tem uma conta? Faça login</a>
     </main>
  
 </body>
